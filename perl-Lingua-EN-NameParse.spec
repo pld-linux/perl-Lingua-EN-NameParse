@@ -29,7 +29,7 @@ Lingua::EN::NameParse - umo¿liwia operacje na imionach osób.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
