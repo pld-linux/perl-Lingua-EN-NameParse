@@ -2,9 +2,9 @@
 Summary:	Lingua-EN-NameParse perl module
 Summary(pl):	Modu³ perla Lingua-EN-NameParse
 Name:		perl-Lingua-EN-NameParse
-Version:	0.03
-Release:	3
-Copyright:	GPL
+Version:	1.00
+Release:	1
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Lingua/Lingua-EN-NameParse-%{version}.tar.gz
@@ -24,7 +24,7 @@ Lingua-EN-NameParse - umo¿liwia operacje na imionach osób.
 
 %prep
 %setup -q -n Lingua-EN-NameParse-%{version}
-%patch -p1
+%patch -p0
 
 %build
 perl Makefile.PL
