@@ -6,7 +6,7 @@ Summary(pl):	Modu³ perla Lingua::EN::NameParse
 Name:		perl-Lingua-EN-NameParse
 Version:	1.20
 Release:	1
-License:	GPL
+License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1f42c836ce96b1916b4d1a3016d5ffef
