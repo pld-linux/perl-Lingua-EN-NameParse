@@ -9,6 +9,7 @@ Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	34bb5be1f9e0570c6c0ae751afdc6bf1
 Patch0:		%{name}-paths.patch
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	perl-Parse-RecDescent
