@@ -2,8 +2,8 @@
 Summary:	Lingua-EN-NameParse perl module
 Summary(pl):	Modu³ perla Lingua-EN-NameParse
 Name:		perl-Lingua-EN-NameParse
-Version:	1.12
-Release:	2
+Version:	1.13
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -42,5 +42,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc *.gz demo.pl
-%{perl_sitelib}/Lingua/EN/NameParse.pm
+%{perl_sitelib}/Lingua/EN/*.pm
 %{_mandir}/man3/*
