@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Lingua
 %define	pnam	EN-NameParse
-%include	/usr/lib/rpm/macros.perl
 Summary:	Lingua-EN-NameParse perl module
 Summary(pl):	Modu³ perla Lingua-EN-NameParse
 Name:		perl-Lingua-EN-NameParse
 Version:	1.16
-Release:	2
-
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,7 +23,7 @@ Lingua-EN-NameParse - routines for manipulating a persons name.
 Lingua-EN-NameParse - umo¿liwia operacje na imionach osób.
 
 %prep
-%setup -q -n Lingua-EN-NameParse-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 %patch -p0
 
 %build
