@@ -3,7 +3,7 @@ Summary:	Lingua-EN-NameParse perl module
 Summary(pl):	Modu³ perla Lingua-EN-NameParse
 Name:		perl-Lingua-EN-NameParse
 Version:	1.13
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -13,6 +13,7 @@ Patch0:		%{name}-paths.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-Parse-RecDescent
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
