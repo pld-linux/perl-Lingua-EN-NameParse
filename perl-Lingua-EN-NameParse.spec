@@ -27,7 +27,7 @@ Lingua::EN::NameParse - umo¿liwia operacje na imionach osób.
 %patch -p0
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
