@@ -4,12 +4,12 @@
 Summary:	Lingua::EN::NameParse perl module
 Summary(pl):	Modu³ perla Lingua::EN::NameParse
 Name:		perl-Lingua-EN-NameParse
-Version:	1.19
+Version:	1.20
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	1dd30adcfc9a95ff041c962012eb8c41
+# Source0-md5:	1f42c836ce96b1916b4d1a3016d5ffef
 Patch0:		%{name}-paths.patch
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	perl-Parse-RecDescent
