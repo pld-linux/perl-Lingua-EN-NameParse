@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Lingua
-%define	pnam	EN-NameParse
+%define		pdir	Lingua
+%define		pnam	EN-NameParse
 Summary:	Lingua::EN::NameParse perl module
 Summary(pl):	Modu³ perla Lingua::EN::NameParse
 Name:		perl-Lingua-EN-NameParse
