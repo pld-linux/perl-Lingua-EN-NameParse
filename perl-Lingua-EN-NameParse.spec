@@ -28,7 +28,7 @@ Lingua-EN-NameParse - umo¿liwia operacje na imionach osób.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
