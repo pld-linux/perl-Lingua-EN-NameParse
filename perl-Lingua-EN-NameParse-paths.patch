@@ -1,0 +1,8 @@
+--- Lingua-EN-NameParse-0.03/demo.pl~	Sat May  1 07:33:54 1999
++++ Lingua-EN-NameParse-0.03/demo.pl	Sat Oct 16 16:02:14 1999
+@@ -1,4 +1,4 @@
+-#! /usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ # Demo script for Lingua::EN::NameParse.pm
+ 
