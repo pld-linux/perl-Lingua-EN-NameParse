@@ -6,7 +6,7 @@
 %define		pdir	Lingua
 %define		pnam	EN-NameParse
 Summary:	Lingua::EN::NameParse perl module
-Summary(pl):	Modu≥ perla Lingua::EN::NameParse
+Summary(pl.UTF-8):   Modu≈Ç perla Lingua::EN::NameParse
 Name:		perl-Lingua-EN-NameParse
 Version:	1.20
 Release:	1
@@ -24,8 +24,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Lingua::EN::NameParse - routines for manipulating a persons name.
 
-%description -l pl
-Lingua::EN::NameParse - umoøliwia operacje na imionach osÛb.
+%description -l pl.UTF-8
+Lingua::EN::NameParse - umo≈ºliwia operacje na imionach os√≥b.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
