@@ -6,7 +6,7 @@
 %define		pdir	Lingua
 %define		pnam	EN-NameParse
 Summary:	Lingua::EN::NameParse perl module
-Summary(pl.UTF-8):   Moduł perla Lingua::EN::NameParse
+Summary(pl.UTF-8):	Moduł perla Lingua::EN::NameParse
 Name:		perl-Lingua-EN-NameParse
 Version:	1.20
 Release:	1
