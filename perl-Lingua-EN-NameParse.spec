@@ -9,7 +9,7 @@ Summary:	Lingua::EN::NameParse perl module
 Summary(pl.UTF-8):	Moduł perla Lingua::EN::NameParse
 Name:		perl-Lingua-EN-NameParse
 Version:	1.20
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
