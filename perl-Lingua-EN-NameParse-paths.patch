@@ -1,5 +1,5 @@
---- demo.pl.orig	Fri Feb 18 00:28:29 2000
-+++ demo.pl	Fri Feb 18 00:28:29 2000
+--- examples/demo.pl.orig	2009-10-20 14:43:30.000000000 +0200
++++ examples/demo.pl	2009-10-20 14:44:05.000000000 +0200
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
