@@ -15,6 +15,7 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	edd3227f9d33211f0760a0d606974712
 Patch0:		%{name}-paths.patch
+BuildRequires:	dos2unix
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -31,6 +32,7 @@ Lingua::EN::NameParse - umożliwia operacje na imionach osób.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
+dos2unix examples/demo.pl
 %patch0 -p0
 
 %build
