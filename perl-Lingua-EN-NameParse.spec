@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Lingua
 %define		pnam	EN-NameParse
+%include	/usr/lib/rpm/macros.perl
 Summary:	Lingua::EN::NameParse perl module
 Summary(pl.UTF-8):	Moduł perla Lingua::EN::NameParse
 Name:		perl-Lingua-EN-NameParse
@@ -15,6 +15,7 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2fb117124b587063fd1ca5de7d92bef5
 Patch0:		%{name}-paths.patch
+URL:		http://search.cpan.org/dist/Lingua-EN-NameParse/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
