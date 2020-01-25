@@ -4,7 +4,6 @@
 
 %define		pdir	Lingua
 %define		pnam	EN-NameParse
-%include	/usr/lib/rpm/macros.perl
 Summary:	Lingua::EN::NameParse perl module
 Summary(pl.UTF-8):	Moduł perla Lingua::EN::NameParse
 Name:		perl-Lingua-EN-NameParse
