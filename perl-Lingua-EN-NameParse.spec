@@ -32,7 +32,7 @@ Lingua::EN::NameParse - umożliwia operacje na imionach osób.
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
 %{__perl} -i -pe 's,\r,,g' examples/demo.pl
-%patch0 -p0
+%patch -P0 -p0
 
 %build
 %{__perl} Makefile.PL \
